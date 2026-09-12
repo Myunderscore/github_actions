@@ -19,8 +19,7 @@ jobs:
           pip install flake8
 
       - name: Run tests
-        run: |
-          pytest
+        run: pytest
 
       - name: Run flake8
         uses: py-actions/flake8@v2
